@@ -1,34 +1,38 @@
-# MLEmbarque_transpiler
+# Transpileur de ML Embarqué
+
+## Dépendances
 
 - Veillez à ce que tous les modules nécessaires soient installés.
 Pour ce faire lancez la commande
-$
-pip install -r requirements.tx
-$
+```
+$ pip install -r requirements.tx
+```
 
+## Création Joblib
 - Créez ensuite le joblib contenant le modèle de regression linéaire avec la commande 
 
-$
-python3 linear_regression.py
-$
+```
+$ python3 linear_regression.py
+```
 
-Pour créer le script main.c, lancez
+## Script C
+- Pour créer le script main.c, lancez
 
-$
-python3 transpile_simple_model.py
-$
+```
+$ python3 transpile_simple_model.py
+```
 
 Le nombre s'affichant est la prédiction de notre regression logistique.
 
-Lancez ensuite 
+- Lancez ensuite 
 
-$
-gcc main.c
-$
+```
+$ gcc main.c
+```
 
 puis 
-$
-./a.out
-$
+```
+$ ./a.out
+```
 
 Vous verrez la prediction du script main.c s'afficher.
