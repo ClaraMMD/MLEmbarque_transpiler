@@ -5,7 +5,7 @@
 - Veillez à ce que tous les modules nécessaires soient installés.
 Pour ce faire lancez la commande
 ```
-$ pip install -r requirements.tx
+$ pip install -r requirements.txt
 ```
 
 ## Création Joblib
